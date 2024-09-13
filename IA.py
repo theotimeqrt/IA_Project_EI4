@@ -67,7 +67,7 @@ transform = transforms.Compose([
 ])
 
 # Exemple de données (à remplacer par tes propres images et labels)
-image_paths = ['path_to_image1.jpg', 'path_to_image2.jpg']
+image_paths = ['image_test/ocean.jpg', 'image_test/mountains.jpg']
 labels = [0, 1]  # 0 pour des paires positives, 1 pour des paires négatives
 
 dataset = SiameseDataset(image_paths=image_paths, labels=labels, transform=transform)
@@ -100,8 +100,8 @@ def compare_images(img_path1, img_path2, model, transform):
         return distance.item()
 
 # Exemple de comparaison
-img_path1 = 'path_to_image1.jpg'
-img_path2 = 'path_to_image2.jpg'
+img_path1 = 'image_test/ocean.jpg'
+img_path2 = 'image_test/mountains.jpg'
 distance = compare_images(img_path1, img_path2, model, transform)
 print(f'Distance between images: {distance}')
 
