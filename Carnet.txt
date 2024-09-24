@@ -1,0 +1,13 @@
+      Si vous souhaitez utiliser git pour synchroniser sous Windows, vous devez utiliser cette commande pour désactiver le mécanisme de protection du chemin NTFS : 
+	" git config core.protectNTFS false "
+
+     Changez le nom de la branche de "master" à "main" lors de l'initialisation de git dans le dossier : 
+	" git init -b main "
+     Après l'initialisation : 
+	" git branch -m master main "
+    
+
+
+
+
+
