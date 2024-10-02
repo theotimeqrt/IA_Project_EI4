@@ -1,0 +1,1 @@
+(conda init) -and (conda activate pytorch)
