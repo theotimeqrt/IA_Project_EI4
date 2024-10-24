@@ -5,6 +5,17 @@
 	" git init -b main "
      Après l'initialisation : 
 	" git branch -m master main "
+
+
+
+git pull             		Utilisé pour récupérer le contenu de GitHub afin de mettre à jour les fichiers dans le dossier
+git add .            		Utilisé pour enregistrer les modifications actuelles
+git commit -m ""     		Utilisé pour ajouter un commentaire à la modification actuelle
+git push origin main 		Utilisé pour envoyer la modification actuelle vers la branche "main" sur GitHub (le nom du 					dépôt distant local actuel est "origin")
+
+git remote           		Liste les noms des dépôts distants configurés dans le dépôt actuel
+git remote -v        		Liste les noms des dépôts distants configurés dans le dépôt actuel et affiche leurs URL
+
     
 
 
